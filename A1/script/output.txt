@@ -1,0 +1,47 @@
+[test_case]
+/home/loulan/test_case/11810935.sh
+/home/loulan/test_case/11810935.zip
+/home/loulan/test_case/answer.file
+/home/loulan/test_case/baseline.sh
+/home/loulan/test_case/output.file
+/home/loulan/test_case/result.file
+/home/loulan/test_case/test_directory
+
+[test_directory]
+/home/loulan/test_case/test_directory/? @ # $&()\|; ‘’“”<>
+/home/loulan/test_case/test_directory/a b
+/home/loulan/test_case/test_directory/d_1
+/home/loulan/test_case/test_directory/d_2
+/home/loulan/test_case/test_directory/\n\t\0
+/home/loulan/test_case/test_directory/\n\t%^&*\0\9$1
+
+[? @ # $&()\|; ‘’“”<>]
+
+[a b]
+/home/loulan/test_case/test_directory/a b/z z $ z.txt`
+
+[d_1]
+/home/loulan/test_case/test_directory/d_1/aa
+/home/loulan/test_case/test_directory/d_1/d_1_1
+/home/loulan/test_case/test_directory/d_1/d_1_2
+/home/loulan/test_case/test_directory/d_1/file1
+/home/loulan/test_case/test_directory/d_1/file2
+
+[d_2]
+/home/loulan/test_case/test_directory/d_2/d_2_2
+/home/loulan/test_case/test_directory/d_2/f_2_2
+
+[\n\t%^&*\0\9$1]
+
+[z z $ z.txt`]
+
+[d_1_1]
+/home/loulan/test_case/test_directory/d_1/d_1_1/f_1_1_1
+
+[d_1_2]
+
+[d_2_2]
+/home/loulan/test_case/test_directory/d_2/d_2_2/f_2_2
+
+[Directories Count]:10
+[Files Count]:13
