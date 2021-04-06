@@ -1,2 +1,4 @@
 # CS302OS
-record for course homework and project
+Record for course homework and project
+## Project1
+Pintos and GDB Test
